@@ -17,8 +17,10 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: var(--color-fondo);
     color: #ffffff;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+
 
 .container {
     display: flex;
