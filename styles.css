@@ -23,7 +23,8 @@ body {
 
 
 .container {
-    display: flex;
+    /* Agrega el !important para asegurar que el diseño de dos columnas se active */
+    display: flex !important;
     height: 100vh;
     width: 100vw;
 }
